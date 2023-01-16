@@ -5,4 +5,7 @@ import { Pupil } from '../../../components/lessons/pupil/pupil';
 export default createBoard({
     name: 'pupil',
     Board: () => <Pupil />,
+    environmentProps: {
+        canvasWidth: 178
+    }
 });

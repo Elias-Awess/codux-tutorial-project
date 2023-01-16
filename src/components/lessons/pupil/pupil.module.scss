@@ -11,6 +11,8 @@
     display: grid;
     grid-template-columns: 70px;
     grid-template-rows: 70px;
+    align-content: center;
+    justify-content: center;
 }
 
 .pupil {
@@ -22,6 +24,7 @@
         width: 70px;
         height: 70px;
     }
+
     &.pupil:nth-child(2) {
         width: 46px;
         height: 46px;
