@@ -11,21 +11,27 @@
     &.left {
         object-position: left;
     }
+
     &.right {
         object-position: right;
     }
+
     &.center {
         object-position: center;
     }
+
     &.top {
         object-position: top;
     }
+
     &.bottom {
         object-position: bottom;
     }
+
     &.scaleToFill {
         object-fit: cover;
     }
+
     &.scaleToFit {
         object-fit: contain;
     }
